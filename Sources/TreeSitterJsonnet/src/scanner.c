@@ -44,9 +44,9 @@ void tree_sitter_jsonnet_external_scanner_destroy(void *payload) {}
 
 enum InsideNode { INSIDE_NONE,  INSIDE_STRING };
 
-uint8_t inside_node = INSIDE_NONE;
-char ending_char = 0;
-uint8_t level_count = 0;
+static uint8_t inside_node = INSIDE_NONE;
+static char ending_char = 0;
+static uint8_t level_count = 0;
 
 static inline void reset_state() {
   inside_node = INSIDE_NONE;
