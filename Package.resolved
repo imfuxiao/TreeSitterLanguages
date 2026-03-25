@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "Runestone",
-        "repositoryURL": "https://github.com/simonbs/Runestone",
+        "repositoryURL": "https://github.com/imfuxiao/Runestone",
         "state": {
           "branch": null,
           "revision": "85c308b679600c7bfb4961f28faa6ae82146355d",
